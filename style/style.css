@@ -1,0 +1,54 @@
+.tool-box {
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(145deg, #f0f4ff, #d9e2ff);
+    box-shadow: 5px 5px 15px #c0c7ff, -5px -5px 15px #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.tool-logo {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    object-fit: contain;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.tool-info {
+    flex: 1;
+}
+.tool-name {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 0.2rem;
+    color: #1a237e;
+}
+.tool-desc {
+    margin: 0.1rem 0 0.5rem 0;
+    color: #3a3a3a;
+}
+.tool-link {
+    font-weight: 600;
+    color: #3949ab;
+    text-decoration: none;
+}
+.tool-link:hover {
+    text-decoration: underline;
+}
+.pricing {
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding: 4px 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: #4caf50; /* default green for Free */
+}
+.pricing.Paid {
+    background-color: #e53935; /* red */
+}
+.pricing.Freemium {
+    background-color: #fbc02d; /* yellow */
+    color: #333;
+}
