@@ -15,8 +15,8 @@ for item in tools_data:
         seen.add(item['category'])
 
 # Streamlit config
-st.set_page_config(page_title="🧠 100 AI Tools Directory", layout="wide")
-st.markdown("<h1 class='title'>🧠 100 AI Tools Directory</h1>", unsafe_allow_html=True)
+st.set_page_config(page_title="🧠 200+ AI Tools Directory", layout="wide")
+st.markdown("<h1 class='title'>🧠200+  AI Tools Directory</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitle'>Explore 100+ categories of curated AI tools. Click any to learn more!</p>", unsafe_allow_html=True)
 
 # Load custom CSS
